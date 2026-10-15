@@ -36,3 +36,9 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+
+{/* <AllTechnologies
+  technologies={technologies}
+  stack={stack}
+  setStack={setStack}
+/> */}
