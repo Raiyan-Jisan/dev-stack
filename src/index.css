@@ -1,2 +1,21 @@
 @import "tailwindcss";
 
+:root {
+  --brand-orange: #ff5722;
+  --brand-pink: #d81b7e;
+  --brand-violet: #7c3aed;
+
+  --brand-gradient: linear-gradient(90deg, var(--brand-orange), var(--brand-pink), var(--brand-violet));
+  --brand-gradient-button: linear-gradient(90deg, var(--brand-orange), var(--brand-pink));
+}
+
+.text-gradient {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-brand {
+  background: var(--brand-gradient-button);
+}

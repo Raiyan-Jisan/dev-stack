@@ -8,6 +8,7 @@
 import './App.css'
 import toast, { Toaster } from 'react-hot-toast'
 import Navbar from './components/Navbar'
+import Banner from './components/banner'
 
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <Navbar/>
+     <Banner />
 
 
     </>
