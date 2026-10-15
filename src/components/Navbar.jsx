@@ -17,6 +17,7 @@ const Navbar = () => {
         <div>
           <img src={Logo} alt="Dev Stack" className="h-8" />
         </div>
+        
 
         <div className="items-center hidden md:flex gap-3">
           <ul className="flex items-center gap-8">
