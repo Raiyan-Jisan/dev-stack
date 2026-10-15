@@ -19,7 +19,7 @@ const MainLayout = () => {
   if (loading) return <Loading />;
 
   return (
-    <section className="max-w-6xl mx-auto px-6 md:px-10 py-10">
+   <section className="container mx-auto px-4 py-10">
       <h2 className="text-3xl font-extrabold">
         Explore the <span className="text-gradient">Technologies</span>
       </h2>
@@ -36,6 +36,7 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+
 
 {/* <AllTechnologies
   technologies={technologies}

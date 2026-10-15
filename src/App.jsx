@@ -8,6 +8,7 @@
 import './App.css'
 // import toast, { Toaster } from 'react-hot-toast'
 import { ToastContainer } from 'react-toastify'
+import { toast } from "react-toastify";
 
 import Navbar from './components/Navbar'
 import Banner from './components/banner'
@@ -23,7 +24,7 @@ function App() {
     <Navbar/>
      <Banner />
      <MainLayout />
-     <Footer/>
+     {/* <Footer/> */}
       <ToastContainer />
 
 
