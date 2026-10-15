@@ -50,8 +50,8 @@ const TechCard = ({ tech, stack, setStack }) => {
 
       <button
         onClick={handleAdd}
-        disabled={isAdded}
-        className="mt-4 w-full cursor-pointer rounded-lg bg-gray-900 py-2.5 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:opacity-60"
+        // disabled={isAdded}
+        className="mt-4 w-full cursor-pointer rounded-lg bg-gray-900 py-2.5 text-sm font-semibold text-white "
       >
         {isAdded ? "✓ Added to Stack" : "Add to Stack"}
       </button>
